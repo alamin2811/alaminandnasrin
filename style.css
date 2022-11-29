@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Pacifico&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}
+
+ol, ul{
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 0px;
+}
+img{
+    max-width: 100%;
+}
+
+.wedding-banner {
+    background: url(img/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 114px;
+    padding-bottom: 150px;
+}
+
+.bismillah {
+    max-width: 462px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 67px;
+}
+.bismillah img{
+    width: 100%;
+}
+
+.pragraph {
+    max-width: 846px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    color: #111111;
+    text-align: center;
+}
+
+.nasrinalamin{
+    max-width: 309px;
+    width: 100%;
+    margin: auto;
+}
+.timer-section{ 
+    max-width: 532px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.timer-section h4 {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 58px;
+    letter-spacing: 0.05em;
+    color: #C80000;
+}
+.timer-section ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.timer-section ul li {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: 0.05em;
+    color: #C80000;
+}
+.timer-section ul li span{
+    font-size: 36px;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .wedding-banner{
+        padding: 40px 0px;
+    }
+    .bismillah{
+        max-width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .pragraph {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .nasrinalamin{
+        max-width: 150px;
+    }
+    .timer-section{
+        margin-top: 40px;
+        max-width: 260px;
+    }
+    .timer-section h4{
+        font-size: 26px;
+        line-height: 20px;
+    }
+    .timer-section ul li{
+        font-size: 30px;
+    }
+    .timer-section ul li span{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .pragraph{
+        font-size: 23px;
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width: 812px){
+    .wedding-banner{
+        padding: 70px 0px;
+    }
+}
+
+
+@media screen and (max-width: 575px){
+    .pragraph{
+        line-height: 38px;;
+    }
+}
