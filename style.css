@@ -21,7 +21,9 @@ h1, h2, h3, h4, h5, h6{
 img{
     max-width: 100%;
 }
-
+.container{
+    max-width: 100%;
+}
 .wedding-banner {
     background: url(img/banner.png);
     background-position: center center;
@@ -96,7 +98,9 @@ img{
     font-size: 36px;
 }
 
-
+.love1, .love2{
+    display: none;
+}
 @media screen and (max-width: 1600px) {
     .wedding-banner{
         padding: 40px 0px;
@@ -141,7 +145,33 @@ img{
 
 @media screen and (max-width: 812px){
     .wedding-banner{
-        padding: 70px 0px;
+        padding: 0px;
+    }
+    .wedding-banner{
+        background-size: contain;
+    }
+    .wedding-banner .container{
+        backdrop-filter: blur(10px);
+        padding: 70px 0px;     
+        min-height: 100vh;  
+        position: relative;
+        z-index: 1;
+    }
+    .love1{
+        display: block;
+        position: fixed;
+        top: -8px;
+        right: -15px;
+        transform: rotate(-45deg);
+        z-index: 2;
+    }
+    .love2{
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        left: -15px;
+        transform: rotate(45deg);
+        z-index: 2;
     }
 }
 
